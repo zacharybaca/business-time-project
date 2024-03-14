@@ -7,11 +7,18 @@
 .navbar {
     grid-column: 2 / 4;
     text-align: center;
+    background-image: url('./assets/pride-crushed-pastel.jpg');
+    background-size: 80px 40px;
+    opacity: 0.7;
 }
 
 .navbar a {
     padding: 10px 5px;
     list-style: none;
+    color: brown;
+    font-weight: bolder;
+    text-decoration: none;
+    opacity: 1;
 }
 
 .navbar a:hover {
@@ -27,4 +34,3 @@
 .main h1 {
     text-align: center;
 }
-
