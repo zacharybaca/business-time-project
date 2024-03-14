@@ -1,17 +1,17 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    grid-template-rows: 20px auto;
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    grid-template-rows: 40px auto;
 }
 
 .navbar {
-    grid-column: 1 / 5;
+    grid-column: 2 / 4;
+    text-align: center;
 }
 
 .navbar a {
-    margin-left: 20%;
-    text-decoration: none;
-
+    padding: 10px 5px;
+    list-style: none;
 }
 
 .navbar a:hover {
@@ -21,8 +21,10 @@
 
 .main {
     grid-column: 1 / 5;
+    border: 2px solid yellow;
 }
 
 .main h1 {
     text-align: center;
 }
+
