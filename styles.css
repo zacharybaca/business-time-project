@@ -8,16 +8,18 @@
     grid-column: 2 / 4;
     text-align: center;
     background-image: url('./assets/pride-crushed-pastel.jpg');
-    background-size: 80px 40px;
+    background-size: 100px 70px;
     opacity: 0.7;
 }
 
 .navbar a {
     padding: 10px 5px;
     list-style: none;
-    color: brown;
+    color: black;
+    font-size: 30px;
     font-weight: bolder;
     text-decoration: none;
+    border-right: 3px solid black;
     opacity: 1;
 }
 
@@ -32,5 +34,6 @@
 }
 
 .main h1 {
+    font-size: 50px;
     text-align: center;
 }
