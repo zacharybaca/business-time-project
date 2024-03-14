@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: 20px auto;
+}
+
+.navbar {
+    grid-column: 1 / 5;
+}
+
+.navbar a {
+    margin-left: 20%;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    text-transform: uppercase;
+    text-shadow: goldenrod;
+}
+
+.main {
+    grid-column: 1 / 5;
+}
+
+.main h1 {
+    text-align: center;
+}
