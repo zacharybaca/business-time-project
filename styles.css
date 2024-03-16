@@ -3,7 +3,7 @@
 
 body {
     background-image: url('./assets/pride-bleeding-colors.jpg');
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .grid-container {
@@ -17,7 +17,7 @@ body {
     text-align: center;
     background-image: url('./assets/pride-crushed-pastel.jpg');
     background-size: 120px 70px;
-    
+
 }
 
 .navbar a {
@@ -42,7 +42,7 @@ body {
 }
 
 .main h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-family: "Honk", system-ui;
     color: navy;
     text-align: center;
@@ -55,19 +55,24 @@ body {
 #dev-info h2 {
     text-align: center;
     font-family: "Pacifico", cursive;
+    font-size: 50px;
 }
 
 #dev-info p {
    font-family:"Caveat", cursive;
-   font-size: 30px;
+   font-size: 40px;
+   font-weight: bolder;
 }
 
 #dev-duties h2 {
     text-align: center;
     font-family: "Pacifico", cursive;
+    font-size: 50px;
 }
 
 #dev-duties li {
     font-family: "Caveat", cursive;
-    font-size: 30px;
+    font-size: 40px;
+    list-style: none;
+    font-weight: bolder;
 }
