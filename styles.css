@@ -3,7 +3,8 @@
 
 body {
     background-image: url('./assets/pride-bleeding-colors.jpg');
-    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-container {
@@ -75,4 +76,29 @@ body {
     font-size: 40px;
     list-style: none;
     font-weight: bolder;
+}
+
+#dev-duties h3 {
+    text-decoration: underline;
+}
+
+#service-pricing h2 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+
+#service-pricing table, th, td {
+    border: 1px solid black;
+}
+
+#service-pricing table {
+    font-size: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#service-pricing th, td {
+    font-weight: bold;
+    padding: 1%;
 }
